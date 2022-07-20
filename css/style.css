@@ -162,10 +162,7 @@ hr{
     font-weight: 600;
 }
 
-
-
-
-
+/* Uocoming mach  */
 
 .mach-aside{
     width: 312px;
@@ -189,3 +186,112 @@ hr{
 .mach-aside-text h3, p{
     margin: 10px 0;
 }
+
+/* Responsive tablat site */
+@media screen and (max-width: 992px){
+    body{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .container{
+        width: 734px;
+        height: 398px;
+    }
+    .sub-container.header-text{
+        padding-left: 55px;
+    }
+    .sub-container img{
+        width: 97%;
+        padding-top: 50px;
+        padding-left: 25px;
+    }
+    .top-btn{
+        width: 160px;
+        height: 48px;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    .top-btn:hover{
+        border: 1px solid #DD0000;
+        background-color: #fff;
+        color: #DD0000;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+    }
+    .blog-section{
+        display: flex;
+        justify-content: space-between; 
+        flex-direction: column;  
+    }
+    .blog-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 230px;
+        height: 64px;
+        border-radius: 10px;
+        background-color: #161616;
+        padding: 30px;
+    }
+    .blog-menu a{
+        text-decoration: none;
+        text-align: center;
+        color: #000;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .blogNameList{
+        border-radius: 10px;
+        padding: 20px 40px;
+        background-color: #fff;
+    }
+    .blogNameList.active{
+        background-color: #DD0000;
+        color: #fff;
+    }
+    .grid-layout{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    .blog-section{
+        width: 1350px;
+        height: auto;
+        border-radius: 15px;
+    }  
+    .blog-aside{
+        width: 312px;
+        height: 362px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        box-shadow: 0px 0px 3px #0c0c0c80;
+    }
+    .aside-tag{
+        width: 120px;
+        height: 35px;
+        border: 1px solid #161616;
+        border-radius: 5px;
+        padding: 6px 23px;
+        font-size: 16px;   
+        font-weight: 700;
+        margin: 20px 10px 20px 20px;
+    }
+    .blog-aside-text h3{
+        font-size: 17px;
+        font-weight: 700;
+        margin: 10px 20px;
+    }
+    .icon-flex{
+        display: flex;
+    }
+    .icon{
+        margin: 20px 20px;
+    }
+}
+    
