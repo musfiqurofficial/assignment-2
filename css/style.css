@@ -296,7 +296,7 @@ hr{
     
 }   
 /* Responsive mobile site */
-@media screen and (max-width: 767px) and (min-width: 320px){
+@media screen and (max-width: 767px) and (min-width: 220px){
     body{
         font-size: 14px;
     }
